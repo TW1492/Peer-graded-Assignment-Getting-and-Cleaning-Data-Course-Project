@@ -2,7 +2,7 @@
 
 This code book describes the data and the 68 variables of the data file "TidyDataAverages.txt". 
 
-## Abbreviations for Variable Names
+## Abbreviations
 
 The following abbreviations are used in the variable names of the variables appearing in "TidyDataAverages.txt".
 
@@ -32,4 +32,92 @@ The following abbreviations are used in the variable names of the variables appe
 
 ## Variable Names
 
+The following table exmplains the 
 
+| Index |     Variable Name    |        Description                               |
+|:-----:|:--------------------:|--------------------------------------------------|
+|1| subject | The partitioners of the experminet are labeled by the numbers from 1 to 30. |
+|2| activity | The activity the experiment participant performed when the phone took the measurements; Values: "walking", "walking upstairs", "walking downstairs", "" |
+|3| avg_mean_body_acc_X | The avarage mean of the body component of the acceleration in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|4| avg_mean_body_acc_Y | The avarage mean of the body component of the acceleration in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|5| avg_mean_body_acc_Z | The avarage mean of the body component of the acceleration in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|6| avg_sd_body_acc_X | The avarage standard deviation of the body component of the acceleration in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|7| avg_sd_body_acc_Y | The avarage standard deviation of the body component of the acceleration in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|8| avg_sd_body_acc_Z | The avarage standard deviation of the body component of the acceleration in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|9| avg_mean_gravity_acc_X | The avarage mean of gravity component of the acceleration in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|10| avg_mean_gravity_acc_Y | The avarage mean of the gravity component of the acceleration in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|11| avg_mean_gravity_acc_Z | The avarage mean of the gravity component of the acceleration in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g |
+|12| avg_sd_gravity_acc_X | The avarage standard deviation of the gravity component of the acceleration in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|13| avg_sd_gravity_acc_Y | The avarage standard deviation of the gravity component of the acceleration in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|14| avg_sd_gravity_acc_Z | The avarage standard deviation of the gravity component of the acceleration in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g |
+|15| avg_mean_body_jerk_X | The avarage mean of the body component of the jerk in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|16| avg_mean_body_jerk_Y | The avarage mean of the body component of the jerk in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|17| avg_mean_body_jerk_Z | The avarage mean of the body component of the jerk in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|18| avg_sd_body_jerk_X | The avarage standard deviation of the body component of the jerk in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|19| avg_sd_body_jerk_Y | The avarage standard deviation of the body component of the jerk in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|20| avg_sd_body_jerk_Z | The avarage standard deviation of the body component of the jerk in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s | 
+|21| avg_mean_body_ang_velocity_X| The avarage mean of the angular velocity of the body of a experiment participant with respect to the X-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|22| avg_mean_body_ang_velocity_Y| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Y-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|23| avg_mean_body_ang_velocity_Z| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Z-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|24| avg_sd_body_ang_velocity_X| The avarage mean of the angular velocity of the body of a experiment participant with respect to the X-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|25| avg_sd_body_ang_velocity_Y| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Y-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|26| avg_sd_body_ang_velocity_Z| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Z-axis; the values are measured by the phone's gyroscope; unit: radiants per second; unit symbol: r/s
+|27| avg_mean_body_ang_jerk_X| The avarage mean of the angular jerk of the body of a experiment participant with respect to the X-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+|28| avg_mean_body_ang_jerk_Y| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Y-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+|29| avg_mean_body_ang_jerk_Z| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Z-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+|30| avg_sd_body_ang_jerk_X| The avarage mean of the angular velocity of the body of a experiment participant with respect to the X-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+|31| avg_sd_body_ang_jerk_Y| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Y-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+|32| avg_sd_body_ang_jerk_Z| The avarage mean of the angular velocity of the body of a experiment participant with respect to the Z-axis; the values are measured by the phone's gyroscope; unit: radiants per (second)^2; unit symbol: r/s^2
+
+
+
+
+
+
+
+the body component of the jerk in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit per second; unit symbol: g/s |
+
+
+
+"mean_body_ang_jerk_X",
+"mean_body_ang_jerk_Y",
+"mean_body_ang_jerk_Z",
+"sd_body_ang_jerk_X",
+"sd_body_ang_jerk_Y",
+"sd_body_ang_jerk_Z",
+"mean_body_acc_mag",
+"sd_body_acc_mag",
+"mean_gravity_acc_mag",
+"sd_gravity_acc_mag",
+"mean_body_jerk_mag",
+"sd_body_jerk_mag",
+"mean_body_ang_velocity_mag",
+"sd_body_ang_velocity_mag",
+"mean_body_ang_jerk_mag",
+"sd_body_ang_jerk_mag",
+"mean_fastFourier_body_acc_X",
+"mean_fastFourier_body_acc_Y",
+"mean_fastFourier_body_acc_Z",
+"sd_fastFourier_body_acc_X",
+"sd_fastFourier_body_acc_Y",
+"sd_fastFourier_body_acc_Z",
+"mean_fastFourier_body_jerk_X",
+"mean_fastFourier_body_jerk_Y",
+"mean_fastFourier_body_jerk_Z",
+"sd_fastFourier_body_jerk_X",
+"sd_fastFourier_body_jerk_Y",
+"sd_fastFourier_body_jerk_Z",
+"mean_fastFourier_body_ang_velocity_X",
+"mean_fastFourier_body_ang_velocity_Y",
+"mean_fastFourier_body_ang_velocity_Z",
+"sd_fastFourier_body_ang_velocity_X",
+"sd_fastFourier_body_ang_velocity_Y",
+"sd_fastFourier_body_ang_velocity_Z",
+"mean_fastFourier_body_acc_mag",
+"sd_fastFourier_body_acc_mag",
+"mean_fastFourier_body_jerk_mag",
+"sd_fastFourier_body_jerk_mag",
+"mean_fastFourier_body_ang_velocity_mag",
+"sd_fastFourier_body_ang_velocity_mag",
+"mean_fastFourier_body_ang_jerk_mag",
+"sd_fastFourier_body_ang_jerk_mag"|
