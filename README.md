@@ -23,8 +23,7 @@ First, we read the data from the folders contained in "UCI HAR Dataset". Note th
 Next, we follow the 5-step outline from the previous section:
 
 1. We merge the data frames test_total and training_total to a single data frame called total_data using the rbind() command.
-2. The relevant column indices of total_data that contain the measurements of the mean and standard deviation can be read off from the "feature.txt" file. They are encoded in the vector: c(1:8,43:48,83:88,123:128,163:168,203:204,216:217,229:230,242:243,255:256,268:273,
-347:352,426:431, 505:506, 518:519, 531:532, 544:545). Using the select() command, we extract these data from total_data and save them again in total_data.
+2. The relevant column indices of total_data that contain the measurements of the mean and standard deviation can be read off from the "feature.txt" file. Using the select() command, we extract these data from total_data and save them again in total_data.
 3. Via the mutate() and factor() commands, we relabel the numeric values for activity by descriptive character strings.
 4. Using the names() command, we relabel the column names of total_data with the descriptive variable names from the code book.
 5. Applying the group_by() and summarize_all() commands yields a new data set containing the average of each variable for each activity and each subject. We store these data in a data frame called averages. Then, using the write() command, we create the file "TidyDataAverages.txt" in the working directory.
