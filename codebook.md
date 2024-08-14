@@ -9,10 +9,27 @@ The data is based on an experiment performed by the scientists Davide Anguita, A
 In this experiment 30 participants of the age 19-49 were equipped with a smart phone (Samsung Galaxy S II). Then, each of the individuals performed the activities walking, walking upstairs, walking down stairs, sitting, standing and laying. During these activitites a accelerometer and gyroscope of the phone took in 50Hz frequency several measurements. The acceleration signal is split into a body acceleration and gravity acceleration each in direction of the X,Y,Z-axis repectively. The gyroscope measured the angular velocity of the participants body with respect to the X,Y,Z-axis respectively. From these signals, jerk signals were obtained via derivation. Likewise, magnitude signals were obtained by taking absolute values of the acceleration, jerk, angular velocity and angular jerk. Finally, fast Fourier transformation was applied to some of the signals to transform the time based data into frequency based data.
 
 ## Description of the data
-The file "TidyDataAverages.txt" contains the average of the means and standard deviations for each individual subject and each activity of the following signals:
+The file "TidyDataAverages.txt" contains the average of the means and standard deviations for each individual subject and each activity of the following signals that were recorded in the experiment:
 
-- Body component acceleration in direction of the X-axis
-- Body component acceleration in direction of the X-axis  
+- Body component acceleration in direction of the X,Y,Z-axis
+- Magnitude of body component of acceleration
+- Body component jerk in direction of the X,Y,Z-axis
+- Magnitude of body component of jerk 
+- Gravity component acceleration in direction of the X,Y,Z-axis
+- Magnitude of gravity component of acceleration
+- Gravity component jerk in direction of the X,Y,Z-axis
+- Magnitude of gravity component of jerk 
+- Angular velocity of body of participant with respect to X,Y,Z-axis
+- Magnitude of angular velocity of participant
+- Angular jerk of body of participant with respect to X,Y,Z-axis
+- Magnitude of angular jerk of participant
+- Fast Fourier transformation of body component acceleration in direction of the X,Y,Z-axis
+- Fast Fourier transformation of magnitude of body component of acceleration
+- Fast Fourier transformation body component jerk in direction of the X,Y,Z-axis
+- Fast Fourier transformation magnitude of body component of jerk 
+- Fast Fourier transformation of angular velocity of body of participant with respect to X,Y,Z-axis
+- Fast Fourier transformation of magnitude of angular velocity of participant
+- Fast Fourier transformation of magnitude of angular jerk of participant
 
 
 
@@ -97,15 +114,14 @@ The following table exmplains the
 |47| avg_sd_fastFourier_body_acc_X | The avarage standard deviation of the fast Fourier transformation of the body component of the acceleration in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
 |48| avg_sd_fastFourier_body_acc_Y | The avarage standard deviation of the fast Fourier transformation of the body component of the acceleration in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
 |49| avg_sd_fastFourier_body_acc_Z | The avarage standard deviation of the fast Fourier transformation of the body component of the acceleration in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation unit; unit symbol: g | 
+|50| avg_mean_fastFourier_body_jerk_X | The avarage mean of the fast Fourier transformation of the body component of the jerk in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
+|51| avg_mean_fastFourier_body_jerk_Y | The avarage mean of the fast Fourier transformation of the body component of the jerk in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
+|52| avg_mean_fastFourier_body_jerk_Z | The avarage mean of the fast Fourier transformation of the body component of the jerk in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
+|53| avg_sd_fastFourier_body_jerk_X | The avarage standard deviation of the fast Fourier transformation of the body component of the jerk in direction of the X-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
+|54| avg_sd_fastFourier_body_jerk_Y | The avarage standard deviation of the fast Fourier transformation of the body component of the jerk in direction of the Y-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
+|55| avg_sd_fastFourier_body_jerk_Z | The avarage standard deviation of the fast Fourier transformation of the body component of the jerk in direction of the Z-axis measured by the phone's accelerometer; unit: standard gravitation units per second; unit symbol: g/s | 
 
 
-
-"mean_fastFourier_body_jerk_X",
-"mean_fastFourier_body_jerk_Y",
-"mean_fastFourier_body_jerk_Z",
-"sd_fastFourier_body_jerk_X",
-"sd_fastFourier_body_jerk_Y",
-"sd_fastFourier_body_jerk_Z",
 "mean_fastFourier_body_ang_velocity_X",
 "mean_fastFourier_body_ang_velocity_Y",
 "mean_fastFourier_body_ang_velocity_Z",
