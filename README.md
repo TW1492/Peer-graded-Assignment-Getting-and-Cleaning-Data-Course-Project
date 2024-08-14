@@ -1,6 +1,6 @@
 # Transition from raw to tidy data
 
-This file explains the transition from the raw data resulting from the experiment explained in the code book to the tidy data file "TidyDataAverages.txt". The raw data are availible at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. We first explain the general outline of the transition and then give a detailed description of the "run_analysis.R"-script which performes the transition. 
+This file explains the transition from the raw data resulting from the experiment explained in the code book to the tidy data file "TidyDataAverages.txt". We first explain the general outline of the transition and then give a detailed description of the "run_analysis.R"-script which performes the transition. The raw data can be dowloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
 ## Outline of Transition
 
