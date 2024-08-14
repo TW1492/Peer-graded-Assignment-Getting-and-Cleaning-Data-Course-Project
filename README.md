@@ -18,6 +18,10 @@ It is assumed that the raw data is dowloaded and unzipped in the working directo
 
 The "run_analysis.R" script requires the installation of the dplyr-package.
 
+First, we read the data from the folders contained in "UCI HAR Dataset". Note that the raw data is separated into test data and training data. The file "subject_train" contains the subject identities of each measurement, "X_train" the explicit measurements and "y_train" the activity that is performed during each measurement all corresponding to the subjects that belong to the training set. We read the files "subject_train", "X_train", "y_train" and save them into the data frames train_subject_ids, train_total, train_activities. Then, we use the cbind() command to append train_subject_ids and train_activities to train_total. The new columnes are named "subjects" and "activity". We perform the same steps with the testing data sets which yields the data frame test_total.
+
+Next, we follow the 5-step outline from the previous section:
+
 1. We merge the data frames test_total and training_total to a single data frame called total_data using the rbind() command.
 2. The relevant column indices of total_data that contain the measurements of the mean and standard deviation can be read off from the "feature.txt" file. They are encoded in the vector: c(1:8,43:48,83:88,123:128,163:168,203:204,216:217,229:230,242:243,255:256,268:273,
 347:352,426:431, 505:506, 518:519, 531:532, 544:545). Using the select() command, we extract these data from total_data and save them again in total_data.
