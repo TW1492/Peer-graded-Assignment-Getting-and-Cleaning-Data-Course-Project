@@ -1,8 +1,20 @@
 # Code Book
 
-This code book describes the data and the 68 variables of the data file "TidyDataAverages.txt". 
+This code book describes the data and the 68 variables of the data file "TidyDataAverages.txt".
+
+## Description of the experiment
+
+The data is based on an experiment performed by the scientists Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz which was published in the article "Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine" in the workshop proceedings "International Workshop of Ambient Assisted Living (IWAAL 2012)" in November, 2012. The raw data set of this experiment is can be dowloaded via the following url: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
+In this experiment 30 participants of the age 19-49 were equipped with a smart phone (Samsung Galaxy S II). Then, each of the individuals performed the activities walking, walking upstairs, walking down stairs, sitting, standing and laying. During these activitites a accelerometer and gyroscope of the phone took in 50Hz frequency several measurements. The acceleration signal is split into a body acceleration and gravity acceleration each in direction of the X,Y,Z-axis repectively. The gyroscope measured the angular velocity of the participants body with respect to the X,Y,Z-axis respectively. From these signals, jerk signals were obtained via derivation. Likewise, magnitude signals were obtained by taking absolute values of the acceleration, jerk, angular velocity and angular jerk. Finally, fast Fourier transformation was applied to some of the signals to transform the time based data into frequency based data.
 
 ## Description of the data
+The file "TidyDataAverages.txt" contains the average of the means and standard deviations for each individual subject and each activity of the following signals:
+
+- Body component acceleration in direction of the X-axis
+- Body component acceleration in direction of the X-axis  
+
+
 
 ## Abbreviations
 
@@ -13,7 +25,6 @@ The following abbreviations are used in the variable names of the variables appe
 | body             | Signal that belongs to the body component of an experiment participant measured by the phone's accelerometer or gyroscope |
 | gravity          | Signal that belongs to the gravity component of an experiment participant measured by the phone's accelerometer |
 | fastFourier      | Indicates that a fast Fourier transformation is applied to a time based signal to create a frequence based signal |
-| avg_mean         | Average value of a data set  which contains means of measurements |
 | avg_st           | Average value of a data set  which contains standard deviations of measurements |
 | acc_X            | Value of acceleration in direction of the X-axis; unit: standard gravitation unit; unit symbol: g |
 | acc_Y            | Value of acceleration in direction of the Y-axis; unit: standard gravitation unit; unit symbol: g |
