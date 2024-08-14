@@ -18,9 +18,9 @@ The file "TidyDataAverages.txt" contains the average of the means and standard d
 - Magnitude of gravity component of acceleration
 - Gravity component jerk in direction of the X,Y,Z-axis
 - Magnitude of gravity component of jerk 
-- Angular velocity of body of participant with respect to X,Y,Z-axis
+- Angular velocity of participant with respect to X,Y,Z-axis
 - Magnitude of angular velocity of participant
-- Angular jerk of body of participant with respect to X,Y,Z-axis
+- Angular jerk of participant with respect to X,Y,Z-axis
 - Magnitude of angular jerk of participant
 - Fast Fourier transformation of body component acceleration in direction of the X,Y,Z-axis
 - Fast Fourier transformation of magnitude of body component of acceleration
